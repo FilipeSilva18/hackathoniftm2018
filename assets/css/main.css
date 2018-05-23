@@ -1,0 +1,1222 @@
+.btn,
+.splash {
+    display: inline-block
+}
+
+.modal,
+.modal.modal_regulamento .click_area {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0
+}
+
+body,
+html {
+    min-height: 100%
+}
+
+.app,
+.app .section#intro,
+.app .section#pq {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal
+}
+
+.app .section#regulamento a,
+.app-header .menu ul li a.btn {
+    white-space: nowrap
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: ea_sports_covers_scbold, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    scroll-behavior: smooth
+}
+
+.app .section#pq p,
+.modal p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+body {
+    overflow-x: hidden
+}
+
+img {
+    max-width: 100%
+}
+
+h1,
+h2,
+h3 {
+    color: #fff
+}
+
+h1 {
+    font-size: 30px
+}
+
+@media screen and (max-width:1100px) {
+    h1 {
+        font-size: 26px
+    }
+}
+
+@media screen and (max-width:1000px) {
+    h1 {
+        font-size: 20px
+    }
+}
+
+h2 {
+    font-size: 22px
+}
+
+@media screen and (max-width:1100px) {
+    h2 {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:1000px) {
+    h2 {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width:700px) {
+    h2 {
+        font-size: 14px
+    }
+}
+
+h3 {
+    font-size: 18px
+}
+
+@media screen and (max-width:1100px) {
+    h3 {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:1000px) {
+    h3 {
+        font-size: 14px
+    }
+}
+
+p {
+    font-size: 14px;
+    line-height: 140%
+}
+
+@media screen and (max-width:500px) {
+    p {
+        font-size: 12px
+    }
+}
+
+a {
+    color: #efca3e;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.app .section#como a,
+.app-footer ul.midia a,
+.btn {
+    text-decoration: none
+}
+
+li {
+    list-style: none
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-12 {
+    width: 100%
+}
+
+.splash {
+    padding: 18px;
+    background-image: url(../images/vetor.png);
+    background-repeat: no-repeat
+}
+
+@font-face {
+    font-family: ea_sports_covers_scbold;
+    src: url(../fonts/ea_sports_covers_sc_1.5-webfont.woff2) format("woff2"), url(../fonts/ea_sports_covers_sc_1.5-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+.btn {
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border-color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    -webkit-transition: background .1s ease-in-out;
+    transition: background .1s ease-in-out
+}
+
+@media screen and (max-width:700px) {
+    .btn {
+        font-size: 16px
+    }
+}
+
+.btn:hover {
+    background: #efca3e
+}
+
+.btn.big-btn {
+    font-size: 40px;
+    padding: 20px
+}
+
+@media screen and (max-width:700px) {
+    .btn.big-btn {
+        font-size: 18px
+    }
+}
+
+.modal {
+    z-index: 9999;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .6);
+    display: none
+}
+
+.modal h2 {
+    font-size: 36px;
+    margin-bottom: 20px
+}
+
+.modal h4 {
+    font-size: 20px;
+    margin: 20px 0 10px
+}
+
+.modal h1,
+.modal h2,
+.modal h3,
+.modal p {
+    color: #333
+}
+
+.modal p {
+    margin-bottom: 5px
+}
+
+.modal.modal_regulamento .click_area {
+    z-index: 0
+}
+
+.modal.modal_regulamento .content {
+    padding: 20px;
+    overflow: auto;
+    max-height: 90%;
+    position: relative;
+    z-index: 1
+}
+
+.modal .content {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .4);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .4);
+    background: #fff;
+    padding: 2px;
+    border-radius: 3px
+}
+
+.modal .content .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden
+}
+
+.modal .content .video-container embed,
+.modal .content .video-container iframe,
+.modal .content .video-container object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.app {
+    width: calc(100% - 40px);
+    max-width: 1160px;
+    margin: 20px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative
+}
+
+.app .row,
+.app .section {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+@media (max-width:700px) {
+    .app {
+        width: 100%;
+        margin: 0
+    }
+}
+
+.app .row {
+    width: 100%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px
+}
+
+.app .row:last-child {
+    margin-bottom: 0
+}
+
+.app .section {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.app .section h1,
+.app .section h2,
+.app .section h3 {
+    text-shadow: 1px 2px #000
+}
+
+.app .section#intro {
+    height: 700px;
+    background-image: url(../images/intro.jpg);
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative
+}
+
+.app .section#intro>* {
+    position: relative;
+    z-index: 1
+}
+
+.app .section#intro .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.app .section#intro .buttons p:first-of-type a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-height: 40px
+}
+
+@media (max-width:400px) {
+    .app .section#intro .buttons p:first-of-type a {
+        width: 130px
+    }
+}
+
+.app .section#intro .buttons p:first-of-type a svg {
+    margin-right: 5px
+}
+
+.app .section#intro .buttons p.splash {
+    background-position: top right
+}
+
+.app .section#intro .fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0
+}
+
+.app .section#intro .fullscreen-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1
+}
+
+.app .section#intro .fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.app .section#intro h2,
+.app .section#intro p {
+    margin-top: 20px;
+    text-align: center
+}
+
+@media (max-width:700px) {
+    .app .row:first-child {
+        margin-bottom: 0
+    }
+    .app .section#intro {
+        height: auto;
+        padding-top: 200px
+    }
+}
+
+.app .section#como,
+.app .section#convite,
+.app .section#edicao_2015,
+.app .section#edicao_2016,
+.app .section#edicao_2017,
+.app .section#edicao_2018,
+.app .section#mentores,
+.app .section#onde,
+.app .section#pq,
+.app .section#premio,
+.app .section#quero {
+    height: 540px
+}
+
+@media (max-width:950px) {
+    .app .section#como,
+    .app .section#convite,
+    .app .section#edicao_2015,
+    .app .section#edicao_2016,
+    .app .section#edicao_2017,
+    .app .section#edicao_2018,
+    .app .section#mentores,
+    .app .section#onde,
+    .app .section#pq,
+    .app .section#premio,
+    .app .section#quero {
+        height: 440px
+    }
+    .app .section#pq {
+        width: 40%
+    }
+}
+
+.app .section#regulamento {
+    height: 90px;
+    background-color: #000
+}
+
+.app .section#pq {
+    background-image: url(../images/porque.png);
+    border-right: 20px solid #fff;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.app .section#pq p {
+    text-align: right;
+    margin: 20px 0
+}
+
+.app .section#pq h3 {
+    text-align: right
+}
+
+@media (max-width:700px) {
+    .app .section#pq {
+        width: 100%;
+        border-right: none;
+        border-bottom: 20px solid #fff;
+        height: auto
+    }
+    .app .section#pq h1,
+    .app .section#pq p {
+        text-align: center
+    }
+}
+
+.app .section#convite {
+    background-image: url(../images/fernanda.jpg);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative
+}
+
+.app .section#convite h1 {
+    max-width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#convite h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right
+}
+
+.app .section#convite svg path {
+    fill: #fff
+}
+
+.app .section#convite:hover svg path {
+    fill: #efca3e
+}
+
+@media (max-width:950px) {
+    .app .section#convite {
+        width: 60%
+    }
+}
+
+@media (max-width:700px) {
+    .app .section#convite {
+        width: 100%;
+        height: 300px
+    }
+    .app .section#convite h1 {
+        max-width: 90%;
+        text-align: center
+    }
+    .app .section#como .steps {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+}
+
+.app .section#como {
+    background-image: url(../images/como.png);
+    position: relative
+}
+
+.app .section#como h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#como h2 {
+    text-align: center;
+    line-height: 160%
+}
+
+.app .section#como h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right
+}
+
+.app .section#como a {
+    border: 1px solid transparent
+}
+
+.app .section#como a:hover {
+    border-bottom-color: #efca3e
+}
+
+.app .section#como .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media (max-width:500px) {
+    .app .section#como {
+        height: auto
+    }
+    .app .section#como h1 {
+        max-width: none;
+        width: 100%;
+        left: 0;
+        text-align: center
+    }
+    .app .section#como .steps {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+}
+
+.app .section#como .step {
+    margin: 0 10px
+}
+
+.app .section#como .step img {
+    width: auto;
+    max-height: 50px
+}
+
+@media (max-width:700px) {
+    .app .section#como .step {
+        width: 48%;
+        margin: 1%
+    }
+    .app .section#premio .steps {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-top: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+.app .section#premio {
+    background-image: url(../images/premios.png);
+    position: relative
+}
+
+.app .section#premio>h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#premio h2 {
+    text-align: center;
+    line-height: 160%
+}
+
+.app .section#premio h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right
+}
+
+.app .section#premio .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media (max-width:500px) {
+    .app .section#como .step {
+        width: 80%;
+        margin: 3% auto
+    }
+    .app .section#premio {
+        height: auto
+    }
+    .app .section#premio h1 {
+        max-width: none;
+        width: 100%;
+        left: 0;
+        text-align: center
+    }
+    .app .section#premio .steps {
+        padding-top: 30px
+    }
+}
+
+.app .section#premio .step {
+    margin: 0 10px
+}
+
+.app .section#premio .step h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+.app .section#premio .step h1 span.normal-font {
+    font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+@media (max-width:700px) {
+    .app .section#premio .step {
+        width: 48%;
+        margin: 1%
+    }
+    .app .section#premio .step:first-child {
+        width: 60%;
+        margin: 1% 20%
+    }
+}
+
+.app .section#onde {
+    background-image: url(../images/onde.png);
+    position: relative
+}
+
+.app .section#onde h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#onde h2 {
+    text-align: center;
+    line-height: 160%
+}
+
+.app .section#onde h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right
+}
+
+.app .section#onde .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media (max-width:700px) {
+    .app .section#onde .steps {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-top: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+@media (max-width:500px) {
+    .app .section#premio .step {
+        width: 80%;
+        margin: 5% auto
+    }
+    .app .section#onde {
+        height: auto
+    }
+    .app .section#onde h1 {
+        max-width: none;
+        width: 100%;
+        left: 0;
+        text-align: center
+    }
+    .app .section#onde .steps {
+        padding-top: 30px
+    }
+}
+
+.app .section#onde .step {
+    margin: 0 10px
+}
+
+@media (max-width:700px) {
+    .app .section#onde .step {
+        width: 48%;
+        margin: 1%
+    }
+}
+
+@media (max-width:500px) {
+    .app .section#onde .step {
+        width: 80%;
+        margin: 5% auto
+    }
+}
+
+.app .section#regulamento>:not(:last-child) {
+    margin-right: 20px
+}
+
+@media (max-width:500px) {
+    .app .section#regulamento>* {
+        margin: 10px 0
+    }
+    .app .section#regulamento {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+        text-align: center
+    }
+    .app .section#edicao_2015:after,
+    .app .section#edicao_2016:after,
+    .app .section#edicao_2017:after,
+    .app .section#edicao_2018:after {
+        display: none
+    }
+}
+
+.app .section#edicao_2015,
+.app .section#edicao_2016,
+.app .section#edicao_2017,
+.app .section#edicao_2018 {
+    position: relative
+}
+
+.app .section#edicao_2015:before,
+.app .section#edicao_2016:before,
+.app .section#edicao_2017:before,
+.app .section#edicao_2018:before {
+    position: absolute;
+    bottom: 15px;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-family: Helvetica;
+    font-weight: 700;
+    z-index: 1
+}
+
+.app .section#mentores .bottom-right p,
+.app .section#quero .bottom-right p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px
+}
+
+.app .section#edicao_2015:after,
+.app .section#edicao_2016:after,
+.app .section#edicao_2017:after,
+.app .section#edicao_2018:after {
+    content: "";
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 35px;
+    height: 1px;
+    border-bottom: 3px dotted #fff
+}
+
+.app .section#edicao_2015 {
+    background-image: url(../images/2015.jpg);
+    position: relative
+}
+
+.app .section#edicao_2015 h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#edicao_2015:before {
+    content: "2015"
+}
+
+.app .section#edicao_2015:after {
+    left: 50%
+}
+
+@media screen and (max-width:700px) {
+    .app .section#edicao_2015 {
+        width: 50%;
+        height: 300px;
+        background-position: center bottom
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app .section#edicao_2015 {
+        width: 100%
+    }
+    .app .section#edicao_2015 h1 {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        left: 0
+    }
+}
+
+.app .section#edicao_2016 {
+    background-image: url(../images/2016.jpg)
+}
+
+.app .section#edicao_2016:before {
+    content: "2016"
+}
+
+@media screen and (max-width:700px) {
+    .app .section#edicao_2016 {
+        width: 50%;
+        height: 300px;
+        background-position: center bottom
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app .section#edicao_2016 {
+        width: 100%
+    }
+}
+
+.app .section#edicao_2017 {
+    background-image: url(../images/2017.jpg)
+}
+
+.app .section#edicao_2017:before {
+    content: "2017"
+}
+
+@media screen and (max-width:700px) {
+    .app .section#edicao_2017 {
+        width: 50%;
+        height: 300px;
+        background-position: center bottom
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app .section#edicao_2017 {
+        width: 100%
+    }
+}
+
+.app .section#edicao_2018 {
+    background-image: url(../images/2018.jpg)
+}
+
+.app .section#edicao_2018:before {
+    content: "2018"
+}
+
+.app .section#edicao_2018:after {
+    left: auto;
+    right: 50%
+}
+
+@media screen and (max-width:700px) {
+    .app .section#edicao_2018 {
+        width: 50%;
+        height: 200px;
+        background-position: center bottom
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app .section#edicao_2018 {
+        width: 100%
+    }
+    .app .section#edicao_2018:before {
+        display: none
+    }
+}
+
+.app .section#quero {
+    background-image: url(../images/participe.png);
+    border-right: 20px solid #fff;
+    position: relative
+}
+
+.app .section#quero h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#quero .bottom-right {
+    max-width: 300px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media (max-width:950px) {
+    .app .section#quero .bottom-right {
+        max-width: 90%
+    }
+    .app .section#quero .bottom-right img {
+        display: none
+    }
+    .app .section#quero {
+        width: 60%
+    }
+}
+
+@media (max-width:700px) {
+    .app .section#quero {
+        width: 100%;
+        border-right: none;
+        border-bottom: 20px solid #fff;
+        min-height: 400px;
+        height: auto
+    }
+}
+
+.app .section#mentores {
+    background-image: url(../images/mentores.png);
+    position: relative
+}
+
+.app .section#mentores h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.app .section#mentores .bottom-right {
+    max-width: 90%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media screen and (max-width:1040px) {
+    .app .section#mentores .bottom-right img {
+        display: none
+    }
+}
+
+@media (max-width:950px) {
+    .app .section#mentores {
+        width: 40%
+    }
+}
+
+.app .section p {
+    color: #fff
+}
+
+.app-footer,
+.app-header {
+    width: 100%;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.app-footer .logo img,
+.app-header .logo img {
+    max-width: 200px
+}
+
+.app-footer .menu,
+.app-header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.app-footer .menu ul,
+.app-header .menu ul {
+    margin-left: 20px
+}
+
+@media (max-width:550px) {
+    .app-footer .menu ul,
+    .app-header .menu ul {
+        margin-left: 0
+    }
+}
+
+.app-footer .menu ul li a,
+.app-header .menu ul li a {
+    color: #000;
+    margin: 10px;
+    display: block
+}
+
+@media screen and (max-width:700px) {
+    .app-footer,
+    .app-header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center
+    }
+    .app-footer .logo {
+        margin: 0 auto 20px
+    }
+}
+
+.app-header {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 9998;
+    -webkit-transition: padding .2s ease-in-out;
+    transition: padding .2s ease-in-out
+}
+
+.app-header.fixed {
+    position: fixed;
+    background: rgba(0, 0, 0, .9);
+    padding: 5px 20px
+}
+
+@media (max-width:700px) {
+    .app .section#mentores {
+        width: 100%;
+        min-height: 250px;
+        height: auto
+    }
+    .app-header {
+        border-bottom: none
+    }
+    .app-header.fixed {
+        border-bottom: 1px solid #fff
+    }
+}
+
+.app-header .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.app-header .menu ul li a:not(.btn) {
+    color: #fff
+}
+
+.app-header .menu ul li a:not(.btn):hover {
+    color: #efca3e
+}
+
+.app-footer {
+    background: #e5e5e5;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.app-footer ul.midia {
+    margin-left: 50px
+}
+
+@media (max-width:550px) {
+    .app-header .menu ul li:last-child {
+        display: none
+    }
+    .app-footer .menu {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .app-footer .menu ul {
+        width: 100%
+    }
+    .app-footer ul.midia {
+        margin-left: 0
+    }
+}
+
+.app-footer ul.midia img {
+    float: right;
+    margin-right: 10px;
+    width: auto;
+    max-height: 40px
+}
+
+@media (max-width:550px) {
+    .app-footer ul.midia img {
+        float: none;
+        margin: auto
+    }
+}
