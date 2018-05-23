@@ -448,6 +448,7 @@ li {
 .app .section#mentores,
 .app .section#onde,
 .app .section#pq,
+.app .section#porque,
 .app .section#premio,
 .app .section#quero {
     height: 540px
@@ -463,6 +464,7 @@ li {
     .app .section#mentores,
     .app .section#onde,
     .app .section#pq,
+    .app .section#porque,
     .app .section#premio,
     .app .section#quero {
         height: 440px
@@ -565,7 +567,7 @@ li {
 }
 
 .app .section#como {
-    background-image: url(../images/como.png);
+    background-image: url(../images/pqhack3.jpeg);
     position: relative
 }
 
@@ -640,11 +642,47 @@ li {
         -ms-flex-pack: center;
         justify-content: center
     }
+    .app .section#porque .steps {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-top: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
 }
 
 .app .section#premio {
-    background-image: url(../images/premios.png);
+    background-image: url(../images/comemoracao.jpg);
     position: relative
+}
+.app .section#porque {
+    background-image: url(../images/pqhackescura.jpeg);
+    position: relative
+}
+.app .section#porque>h1 {
+    max-width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.app .section#porque h2 {
+    text-align: center;
+    line-height: 160%
+}
+
+.app .section#porque h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right
+}
+
+.app .section#porque .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
 }
 
 .app .section#premio>h1 {
@@ -689,6 +727,18 @@ li {
     .app .section#premio .steps {
         padding-top: 30px
     }
+    .app .section#porque {
+        height: auto
+    }
+    .app .section#porque h1 {
+        max-width: none;
+        width: 100%;
+        left: 0;
+        text-align: center
+    }
+    .app .section#porque .steps {
+        padding-top: 30px
+    }
 }
 
 .app .section#premio .step {
@@ -706,6 +756,21 @@ li {
     font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 }
 
+.app .section#porque .step {
+    margin: 0 10px
+}
+
+.app .section#porque .step h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+.app .section#porque .step h1 span.normal-font {
+    font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
 @media (max-width:700px) {
     .app .section#premio .step {
         width: 48%;
@@ -715,10 +780,18 @@ li {
         width: 60%;
         margin: 1% 20%
     }
+    .app .section#porque .step {
+        width: 48%;
+        margin: 1%
+    }
+    .app .section#porque .step:first-child {
+        width: 60%;
+        margin: 1% 20%
+    }
 }
 
 .app .section#onde {
-    background-image: url(../images/onde.png);
+    background-image: url(../images/pizza.jpg);
     position: relative
 }
 
@@ -763,6 +836,10 @@ li {
 
 @media (max-width:500px) {
     .app .section#premio .step {
+        width: 80%;
+        margin: 5% auto
+    }
+    .app .section#porque .step {
         width: 80%;
         margin: 5% auto
     }
