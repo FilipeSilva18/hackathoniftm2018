@@ -567,7 +567,7 @@ li {
 }
 
 .app .section#como {
-    background-image: url(../images/pqhack3.jpeg);
+    background-image: url(../images/inscicao.jpeg);
     position: relative
 }
 
@@ -653,11 +653,11 @@ li {
 }
 
 .app .section#premio {
-    background-image: url(../images/comemoracao.jpg);
+    background-image: url(../images/vitoria.jpeg);
     position: relative
 }
 .app .section#porque {
-    background-image: url(../images/pqhackescura.jpeg);
+    background-image: url(../images/porque2.jpeg);
     position: relative
 }
 .app .section#porque>h1 {
@@ -791,7 +791,7 @@ li {
 }
 
 .app .section#onde {
-    background-image: url(../images/pizza.jpg);
+    background-image: url(../images/pizza2.jpeg);
     position: relative
 }
 
