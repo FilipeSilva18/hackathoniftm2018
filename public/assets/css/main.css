@@ -1168,6 +1168,18 @@ li {
 .patrocinadores{
     max-width: 100px
 }
+.realizacao{
+    max-width: 100px
+}
+.cdl{
+    max-width: 180px
+}
+.if{
+    max-width: 100px
+}
+.pat{
+    right: true;
+}
 
 .app-footer .menu,
 .app-header .menu {
