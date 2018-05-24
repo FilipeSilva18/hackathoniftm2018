@@ -1165,6 +1165,9 @@ li {
 .app-header .logo img {
     max-width: 200px
 }
+.patrocinadores{
+    max-width: 100px
+}
 
 .app-footer .menu,
 .app-header .menu {
